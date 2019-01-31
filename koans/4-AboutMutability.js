@@ -23,14 +23,14 @@ describe("4. About Mutability", () => {
       this.firstname = firstname;
       this.lastname = lastname;
     }
-    Person.prototype.getFullName = () => {
+    Person.prototype.getFullName = function() {
       return this.firstname + " " + this.lastname;
     };
 
     let aPerson = new Person ("John", "Smith");
     expect(aPerson.getFullName()).toBe(FILL_ME_IN);
 
-    aPerson.getFullName = () => {
+    aPerson.getFullName = function() {
       return this.lastname + ", " + this.firstname;
     };
 
