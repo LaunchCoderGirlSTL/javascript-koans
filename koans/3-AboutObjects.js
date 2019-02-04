@@ -73,7 +73,7 @@ describe("3. About Objects", () => {
     expect(simpleCircle.colour).toBe(FILL_ME_IN);
     expect(colouredCircle.colour).toBe(FILL_ME_IN);
 
-    Circle.prototype.describe = () => {
+    Circle.prototype.describe = function() {
       return "This circle has a radius of: " + this.radius;
     };
 
