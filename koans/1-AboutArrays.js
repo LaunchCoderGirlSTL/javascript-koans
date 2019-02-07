@@ -127,7 +127,9 @@ describe("1. About Arrays", () => {
     //The elements of that array should be the first parameter
     //This could be done using a for loop or the fill array function
     const makeArray = (element, length) => {
-      return FILL_ME_IN;
+      let arrayToReturn = []
+      // do stuff
+      return arrayToReturn;
     };
 
     expect(makeArray("hello", 4)).toEqual(["hello", "hello", "hello", "hello"]);
