@@ -128,7 +128,7 @@ describe("1. About Arrays", () => {
     //This could be done using a for loop or the fill array function
     const makeArray = (element, length) => {
       let arrayToReturn = []
-      // do stuff
+      // FILL_ME_IN
       return arrayToReturn;
     };
 
